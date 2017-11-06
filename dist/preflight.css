@@ -529,6 +529,14 @@ iframe {
  * Tailwind custom reset styles
  */
 
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: #dae4e9;
+}
+
 textarea {
   resize: vertical;
 }
